@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lesson3</string>
+    <string name="red">Red</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="setcolor">SET COLOR</string>
+    <string name="clear">CLEAR</string>
+    <string name="name">RekkeiSoft Trainning</string>
+</resources>
