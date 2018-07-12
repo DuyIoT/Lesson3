@@ -6,5 +6,50 @@
     android:layout_height="match_parent"
     android:stretchColumns="*"
     tools:context="rekkeitrainning.com.lesson3.TableLayoutActivity">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/btnRed"
+            android:textColor="@color/red"
+            android:text="@string/red"
+            android:layout_margin="@dimen/dm5dp"
+            android:layout_width="@dimen/dm0dp"
+            />
+        <Button
+            android:id="@+id/btnBlue"
+            android:textColor="@color/blue"
+            android:text="@string/blue"
+            android:layout_margin="@dimen/dm5dp"
+            android:layout_width="@dimen/dm0dp"
+            />
+        <Button
+            android:id="@+id/btnWhite"
+            android:textColor="@color/white"
+            android:text="@string/white"
+            android:layout_margin="@dimen/dm5dp"
+            android:layout_width="@dimen/dm0dp"
+
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvBg"
+            android:background="@color/black"
+            android:textSize="@dimen/dmtextSize"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow
+        android:gravity="right">
+        <Button
+            android:id="@+id/btnClear"
+            android:text="@string/clear"
+            android:layout_span="2"
+            android:layout_gravity=""/>
+    </TableRow>
 
 </TableLayout>

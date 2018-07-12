@@ -4,4 +4,5 @@
     <dimen name="dm20">20dp</dimen>
     <dimen name="dm5dp">5dp</dimen>
     <dimen name="dmtextSize">30sp</dimen>
+    <dimen name="dm0dp">0dp</dimen>
 </resources>
